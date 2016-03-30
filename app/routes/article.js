@@ -1,3 +1,5 @@
+
+// Should we call this "story?"
 import Ember from 'ember';
 
 export default Ember.Route.extend({

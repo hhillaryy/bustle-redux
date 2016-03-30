@@ -27,6 +27,11 @@
         {{input value=image id="image" placeholder=article.image}}
       </div>
 
+      <div class="form-group">
+        <label for="story">Story</label>
+        {{input value=story id="story" placeholder=article.story}}
+      </div>
+
       <button type=button class="btn btn-info" {{action 'update' article}}>Save</button>
     </form>
   </div>

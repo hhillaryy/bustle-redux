@@ -5,5 +5,8 @@ export default DS.Model.extend({
   author: DS.attr(),
   time: DS.attr(),
   category: DS.attr(),
-  image: DS.attr()
+  image: DS.attr(),
+  story: DS.attr()
 });
+
+// Added story attribute

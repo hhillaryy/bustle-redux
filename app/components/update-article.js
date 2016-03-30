@@ -13,9 +13,12 @@ export default Ember.Component.extend({
         time: this.get('time'),
         category: this.get('category'),
         image: this.get('image'),
+        story: this.get('story'),
       };
       this.set('updateArticleForm', false);
       this.sendAction('update', article, params);
     }
   }
 });
+
+// added story within params to match attribute in model
