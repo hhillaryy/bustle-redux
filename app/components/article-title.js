@@ -7,6 +7,7 @@ export default Ember.Component.extend({
      this.sendAction('update', article, params);
    },
     delete(article){
+      debugger;
       if(confirm('Are you sure you want to delete this article?')){
         this.sendAction('destroyArticle', article);
       }

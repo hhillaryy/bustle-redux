@@ -3,4 +3,4 @@
   <p>{{article.time}} , {{article.category}}</p>
   <img src={{article.image}} alt={{article.author}}>
   {{update-article article=article update="update"}}
-  <button type=button class="btn btn-danger" {{action 'delete'}}>Delete</button>
+  <button type=button class="btn btn-danger" {{action 'delete' article}}>Delete</button>
